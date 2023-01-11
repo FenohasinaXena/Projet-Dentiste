@@ -17,18 +17,20 @@
 
 <body>
     <div id="boite_principale">
-        <form class="bootstrap-form-with-validation" action="#" method="post">
+        <form class="bootstrap-form-with-validation" action="List.jsp" method="post">
             <h2 class="text-center">INSERTION EMPLOYEE</h2>
-            <div class="form-group mb-3"><label class="form-label" for="text-input">Nom</label><input class="form-control" type="text" id="text-input" name="nom"></div>
-            <div class="form-group mb-3"><label class="form-label" for="text-input">Prenoms</label><input class="form-control" type="text" id="text-input-1" name="prenom"></div>
+            <div class="form-group mb-3"><label class="form-label" for="text-input">Nom</label><input class="form-control" type="text" id="text-input" name="nom" placeholder="Nom"></div>
+            <div class="form-group mb-3"><label class="form-label" for="text-input">Prenoms</label><input class="form-control" type="text" id="text-input-1" name="prenom" placeholder="Prenom"></div>
             <div class="form-group mb-3"><label class="form-label" for="text-input">Genre</label>
                 <select class="form-select" name="genre">
+                    <option>Genre</option>
                     <option>Masculin</option>
                     <option>Feminin</option>
                 </select></div>
             <div class="form-group mb-3"><label class="form-label" for="text-input">Date de naissance</label><input class="form-control" type="date" id="text-input-2" name="naissance"></div>
             <div class="form-group mb-3"><label class="form-label" for="text-input">Niveau d'etude</label>
                 <select class="form-select form-select-sm js-example-basic-single" name="niveau">
+                    <option>Niveau d'etude</option>
                     <option>BEPC</option>
                     <option>BACC</option>
                     <option>LICENCE</option>
@@ -37,9 +39,9 @@
                 </select></div>
             <section></section><label class="form-label" for="text-input">Specialite</label>
             <div class="form-group mb-3">
-                <div class="form-check"><input class="form-check-input" type="checkbox" name="specialite" id="formCheck-6"><label class="form-check-label" for="formCheck-6">Mpanao solonify</label></div>
-                <div class="form-check"><input class="form-check-input" type="checkbox" name="specialite" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Mpanala nify</label></div>
-                <div class="form-check"><input class="form-check-input" type="checkbox" name="specialite" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Mpitsabo nify</label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" name="specialite" id="formCheck-6"><label class="form-check-label" for="formCheck-6">Manao solonify</label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" name="specialite" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Manetsina nify</label></div>
+                <div class="form-check"><input class="form-check-input" type="checkbox" name="specialite" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Manala nify</label></div>
             </div>
             <div class="form-group mb-3"><button class="btn btn-primary" type="submit">Valider</button></div>
         </form>

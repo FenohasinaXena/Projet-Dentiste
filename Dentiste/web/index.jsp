@@ -17,7 +17,7 @@
 
 <body>
     <div id="boite_principale">
-        <form class="bootstrap-form-with-validation" action="#" method="post">
+        <form class="bootstrap-form-with-validation" action="List.jsp" method="post">
             <h2 class="text-center">INSERTION EMPLOYEE</h2>
             <div class="form-group mb-3"><label class="form-label" for="text-input">Nom</label><input class="form-control" type="text" id="text-input" name="nom" placeholder="Nom"></div>
             <div class="form-group mb-3"><label class="form-label" for="text-input">Prenoms</label><input class="form-control" type="text" id="text-input-1" name="prenom" placeholder="Prenom"></div>
